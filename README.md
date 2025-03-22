@@ -2,6 +2,10 @@
 
 A NestJS and TypeScript backend project for managing user roles and authentication with role-based access control.
 
+## Deployed API
+
+The API is deployed and available at: [https://rbac-backend-v2-0.vercel.app/](https://rbac-backend-v2-0.vercel.app/)
+
 ## Features
 
 - User authentication with JWT
@@ -77,6 +81,12 @@ If you encounter issues running the application:
    ```
 
 ## API Documentation
+
+### Base URL
+
+All API endpoints should be prefixed with the base URL:
+- **Development**: `http://localhost:3000`
+- **Production**: [https://rbac-backend-v2-0.vercel.app/](https://rbac-backend-v2-0.vercel.app/)
 
 ### Authentication Endpoints
 
