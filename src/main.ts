@@ -41,6 +41,6 @@ async function bootstrap() {
   
   await app.listen(process.env.PORT || 3000);
   console.log(`Application is running on: ${await app.getUrl()}`);
-  console.log('Swagger API Docs available at http://localhost:3000/api/docs');
+  console.log('Swagger API Docs available at https://rbac-backend-v2-0.vercel.app/api/docs');
 }
 bootstrap();
